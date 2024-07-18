@@ -10,7 +10,6 @@ export const useRestaurants = () => {
     const fetchData = async () => {
       try {
         const response = await fetch('/restaurants.json');
-        console.log('response', response);
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
