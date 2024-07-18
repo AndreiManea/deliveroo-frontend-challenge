@@ -3,5 +3,5 @@ export interface Restaurant {
   name: string;
   tags: string[];
   price: number;
-  img: string;
+  image: string;
 }

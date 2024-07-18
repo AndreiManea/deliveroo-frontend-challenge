@@ -10,7 +10,7 @@ const RestaurantItem = ({ name, tags, price, imgSrc }: RestaurantItemProps) => {
       <div className="flex gap-3 text-secondary text-sm">
         {tags.map((tag) => (
           <>
-            <p key={tag}>{tag}</p>
+            <p>{tag}</p>
             <p>•</p>
           </>
         ))}

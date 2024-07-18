@@ -18,7 +18,7 @@ const RestaurantList = ({ restaurants }: RestaurantListProps) => {
             name={restaurant.name}
             tags={restaurant.tags}
             price={restaurant.price}
-            imgSrc={restaurant.img}
+            imgSrc={restaurant.image}
           />
         ))}
       </div>
